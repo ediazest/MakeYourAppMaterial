@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main activity theme. -->
+    <style name="AppThemeMain" parent="@style/Theme.Bacon">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
+    </style>
+
+    <style name="AppThemeDetails" parent="@style/Theme.Bacon">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
